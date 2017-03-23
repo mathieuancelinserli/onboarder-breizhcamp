@@ -5,7 +5,7 @@ const Client = require('node-rest-client').Client
 
 const client = new Client()
 const app = express()
-const port = 3000
+const port = 8080
 // The id of your deployed application is accessible
 // as an envrionment variable
 const appID = process.env['APP_ID']
