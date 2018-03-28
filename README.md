@@ -10,17 +10,7 @@ Ensuite, comment je déploie? Deux possibilités:
 
 Pour commencer, la documentation est ici [https://www.clever-cloud.com/doc/clever-tools/getting_started/](https://www.clever-cloud.com/doc/clever-tools/getting_started/).
 
-Installer `clever-tools` avec npm:
-
-````
-npm install -g clever-tools
-````
-
-Ou bien yarn:
-
-````
-yarn global add clever-tools
-````
+Installer `clever-tools`. (Voir [https://www.clever-cloud.com/doc/clever-tools/getting_started/](https://www.clever-cloud.com/doc/clever-tools/getting_started/).)
 
 Une fois `clever-tools` installé, placer vous dans ce repository Git et:
 
