@@ -1,8 +1,8 @@
 # Concours BreizhCamp
 
-Bonjour , tu veux gagner une place pour le [BreizhCamp](http://www.breizhcamp.org/)? (parce que en fait, c'est sold out!) Et Clever Cloud a une place en trop. Que va t'on en faire? On va organiser une loterie. On tirera au sort le gagnant le 6 Avril. Comment faire pour t'inscrire à la lotterie? Tu dois modifier puis déployer cette application sur [Clever Cloud](http://www.clever-cloud.com).
+Bonjour, tu veux gagner une MEGA DRIVE ou une SUPERNES MINI au Breizhcamp ? Participe à la loterie ! On tirera au sort le gagnant le 30 mars. Comment faire pour t'inscrire à la lotterie ? Tu dois modifier puis déployer cette application sur [Clever Cloud](http://www.clever-cloud.com).
 
-Modifier le code? Ouvre le fichier `index.js`, on a commenté un appel REST. Il suffit de le décommenter. Il sera exécuté au déploiement de l'application automatiquement. Cet appel vous inscrit au concours! N'oubliez pas non plus de modifier l'objet JSON envoyé par l'appel REST. Il nous aidera à vous contacter. 
+Modifier le code? Ouvre le fichier `index.js`, on a commenté un appel REST. Il suffit de le décommenter. Il sera exécuté au déploiement de l'application automatiquement. Cet appel vous inscrit au concours! N'oubliez pas non plus de modifier l'objet JSON envoyé par l'appel REST. Il nous aidera à vous contacter.
 
 Ensuite, comment je déploie? Deux possibilités:
 
@@ -26,7 +26,7 @@ Une fois `clever-tools` installé, placer vous dans ce repository Git et:
 
 ````
 clever login
-clever create --type node mybzhcamp
+clever create --type node mybzhcamp-{myname}
 clever deploy
 clever open
 ````

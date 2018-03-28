@@ -31,7 +31,7 @@ app.get('/', (request, response) => {
   //     headers: { "Content-Type": "application/json" }
   // };
   // You are nearly there!
-  // client.post("http://onboarder-breizhcamp.cleverapps.io/play", args, function (data, response) {
+  // client.post("http://onboarderbzh.cleverapps.io/play", args, function (data, response) {
   //   console.log(response.statusCode);
   // });
   // If you want to dig further you should watch this: https://www.youtube.com/watch?v=CeaoTAXkIZE
